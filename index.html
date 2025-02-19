@@ -3,41 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neon Black Theme</title>
-    <style>
-        body {
-            background-color: #000; /* Pure black background */
-            color: #0ff; /* Neon cyan text */
-            font-family: 'Courier New', monospace;
-            text-align: center;
-            padding: 50px;
-        }
-
-        h1 {
-            font-size: 3rem;
-            text-shadow: 0 0 10px #0ff, 0 0 20px #00f, 0 0 30px #0ff;
-        }
-
-        p {
-            font-size: 1.5rem;
-            text-shadow: 0 0 5px #ff0, 0 0 10px #f00;
-        }
-
-        a {
-            color: #f0f;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        a:hover {
-            text-shadow: 0 0 5px #f0f, 0 0 10px #ff0;
-        }
-    </style>
+    <title>My Neon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Neon Site</h1>
-    <p>This is a cool black theme with neon colors.</p>
-    <a href="#">Click Me</a>
+    <div class="card">
+        <img src="profile.jpg" alt="My Photo" class="profile-pic">
+        <h1>John Doe</h1>
+        <p class="role">Web Developer | AI Enthusiast</p>
+        <p class="bio">I build modern web applications and love AI-driven solutions.</p>
+
+        <div class="social-links">
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+            <a href="mailto:you@example.com">Email</a>
+        </div>
+    </div>
 </body>
 </html>
-
